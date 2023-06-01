@@ -1,0 +1,7 @@
+#!/usr/bin/env zsh
+
+stow_dir=("nvim" "tmux")
+
+for dir in $stow_dir; do
+    stow "$dir"
+done
