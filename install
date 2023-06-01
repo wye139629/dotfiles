@@ -1,0 +1,13 @@
+#!/usr/bin zsh
+
+dotfiles_dir="$HOME/dotfiles"
+
+stow_dir=("nvim" "tmux" "yabai" "skhd")
+
+pushd $dotfiles_dir # Move to the dotfiles dir
+for dir in $stow_dir; do
+    echo "=== stow $dir ==="
+    stow -D "$dir"
+    stow "$dir"
+done
+popd
