@@ -1,0 +1,16 @@
+#!/usr/bin zsh
+
+dotfiles_dir="$HOME/dotfiles"
+
+typeset -A config_files=(
+  zsh ".zshrc"
+  # tmux ".tmux.conf"
+  # yabai ".config/yabai/yabairc"
+  # skhd ".config/skhd/skhdrc"
+)
+
+pushd "$dotfiles_dir" # Move to the dotfiles dir
+for key value in "${(@kv)config_files}"; do
+  source "$dotfiles_dir/$key/$value"
+done
+popd 
