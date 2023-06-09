@@ -2,7 +2,7 @@
 
 dotfiles_dir="$HOME/dotfiles"
 
-stow_dir=("nvim" "tmux" "yabai" "skhd" "zsh" "p10k")
+stow_dir=("bin" "nvim" "tmux" "yabai" "skhd" "zsh" "p10k")
 
 pushd $dotfiles_dir # Move to the dotfiles dir
 for dir in $stow_dir; do
