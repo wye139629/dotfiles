@@ -110,6 +110,9 @@ DEFAULT_USER=william
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # For zsh syntax-highlighting
 
+# DockerId
+export dockerId="wye139629"
+
 # Node version managerment config
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
