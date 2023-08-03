@@ -1,6 +1,3 @@
-[submodule "nvim/.config/nvim"]
-	path = nvim/.config/nvim
-	url = git@github.com:wye139629/neovim-setup.git
 [submodule "vim/.vim"]
 	path = vim/.vim
 	url = git@github.com:wye139629/.vim.git
