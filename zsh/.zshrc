@@ -109,6 +109,7 @@ DEFAULT_USER=william
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # For zsh syntax-highlighting
+alias vim='nvim'
 
 # DockerId
 export dockerId="wye139629"
