@@ -133,7 +133,7 @@ export  PATH="$HOME/.local/scripts:$PATH"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # tmux
-bindkey -s ^f "tmux-sessionizer\n"
+bindkey -s "^f" "tmux-sessionizer\n"
 
 # auto-suggestion
 #
