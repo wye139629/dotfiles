@@ -2,7 +2,7 @@
 
 session=$(
     { find ~ -mindepth 1 -maxdepth 1 -type d ; \
-            find ~/Documents/programing ~/Documents/work -mindepth 1 -maxdepth 2 -type d ; \
+            find ~/Documents/programing ~/Documents/work ~/Documents/usyd_mcs -mindepth 1 -maxdepth 2 -type d ; \
         } | fzf
 )
 session_name=$(basename "$session" | tr . _)
